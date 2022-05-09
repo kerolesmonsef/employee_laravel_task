@@ -1,0 +1,123 @@
+.form-group-dark-border {
+    border: 1px solid;
+}
+
+.border-dark-blue {
+    border-color: #bfc6cd !important;
+}
+
+.border-warning-2 {
+    border: 2px solid #ffc107 !important;
+}
+
+.form-group-danger-border {
+    border: 1px solid #dc3545;
+}
+
+.form-group-input-border > label {
+    position: absolute;
+    top: -13px;
+    left: 20px;
+    background-color: white;
+    padding: 0 10px;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.form-group-input-border {
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+.form-group-input-border.focused {
+    border: 2px solid #28a745 !important
+}
+
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/*-----------------*/
+.shops-icon {
+    position: relative;
+    font-size: 30px;
+}
+
+.shops-icon .icon-stack-1 {
+    font-size: 28px;
+}
+
+.shops-icon .icon-stack-2 {
+    font-size: 18px;
+    position: absolute;
+    top: 13px;
+    left: -7px;
+}
+
+.shops-icon .icon-stack-3 {
+    font-size: 13px;
+    position: absolute;
+    top: 19px;
+    right: 5px;
+}
+
+.store-plus {
+    position: relative;
+}
+
+.store-plus .fa-plus {
+    position: absolute;
+    top: -6px;
+    right: -8px;
+    font-size: 16px;
+}
+
+.remove_after_content:after {
+    content: "" !important;
+}
+
+
+.a_icon a {
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    width: 100%;
+    border-radius: 4px;
+}
+
+.a_icon a:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+
+.my-small-box .inner {
+    padding: 10px;
+}
+
+.my-small-box .my-box-head {
+    background: rgba(0, 0, 0, .1);
+    color: rgba(255, 255, 255, .8);
+    display: block;
+    padding: 3px 0;
+    text-align: center;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.my-small-box .inner .icon > svg {
+    top: 55px !important;
+}
+
+my-box-footer ul li a {
+    padding: 5px 11px !important;
+    color: white !important;
+}
+
+my-box-footer ul li .active {
+    background-color: #343a40 !important;
+}
+
+my-box-footer .nav-link:not(.active) {
+    box-shadow: 1px 1px #000000
+}
